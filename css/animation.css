@@ -1,0 +1,248 @@
+/*==============BANER PART ANIMATION GOES ============*/
+
+.bannerpart .slidepart.slick-active .bannercontent .overlay h3 {
+  animation-name: h3animation;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+.bannerpart .slidepart.slick-active .bannercontent .overlay h1 {
+  animation-name: h1animation;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+.bannerpart .slidepart.slick-active .bannercontent .overlay p {
+  animation-name: panimation;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+.bannerpart .slidepart.slick-active .bannercontent .overlay .link a {
+  animation-name: aanimation;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+@keyframes panimation {
+  0% {
+    margin-top: 50px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    margin-top: 0;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@keyframes aanimation {
+  0% {
+    margin: 60px 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    margin: 10px 0;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+/*==============service PART ANIMATION GOES ============*/
+.ourservices.ourservicesanimation {
+  animation-name: ourservices;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+@keyframes ourservices {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+/*==============CHOICE PART ANIMATION GOES ============*/
+.choiceus.choiceusanimation {
+  animation-name: choiceusanimation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+@keyframes choiceusanimation {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+/*=============DIFFERENT PART ANIMATION GOES HERE */
+.differentspart.overlayanimation .content .overlay h4 {
+  animation-name: h4animation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+@keyframes h4animation {
+  0% {
+    margin: 5px 0 5px -30px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    margin: 5px 0 5px 0;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+.differentspart.overlayanimation .content .overlay h1 {
+  animation-name: h1animation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+@keyframes h1animation {
+  0% {
+    margin: 5px 30px 5px 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    margin: 5px 0 5px 0;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+.differentspart.overlayanimation .content .overlay h3 {
+  animation-name: h3animation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+@keyframes h3animation {
+  0% {
+    margin: 5px -30px 5px 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    margin: 5px 0 5px 0;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+.differentspart.overlayanimation .content .overlay a {
+  animation-name: aanimation;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+@keyframes aanimation {
+  0% {
+    margin: 5px -30px 5px 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    margin: 5px 0 5px 0;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+/*==============LATEST PART ANIMATION GOES ============*/
+.latestnews.latestnewsanimation {
+  animation-name: latestnewsanimation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+@keyframes latestnewsanimation {
+  0% {
+    margin: 100px 0 0 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    margin: 30px 0 0 0;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+/*==============SELLING PART ANIMATION GOES ============*/
+.sellingproduct.sellinganimation {
+  animation-name: sellinganimation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+@keyframes sellinganimation {
+  0% {
+    margin-top: 50px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    margin-top: 30px;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+/*==============Delivery PART ANIMATION GOES ============*/
+.deliveryprocess.deliveryanimation {
+  animation-name: deliveryanimation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+@keyframes deliveryanimation {
+  0% {
+    margin-top: 50px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    margin-top: 30px;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+/*==============CLIENTS PART ANIMATION GOES ============*/
+.valueableclients.clientsanimation {
+  animation-name: clientsanimation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+@keyframes clientsanimation {
+  0% {
+    margin-top: 50px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    margin-top: 30px;
+    opacity: 1;
+    visibility: visible;
+  }
+}

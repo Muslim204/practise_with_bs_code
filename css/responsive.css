@@ -1,0 +1,205 @@
+@media (max-width: 575px) {
+  /*====header part====*/
+  header .hotline ul li span {
+    margin: 0 7px !;
+  }
+  .quoteform {
+    min-height: 365px;
+  }
+  .quoteform h2 {
+    font-size: 13px;
+  }
+  .quoteform form input {
+    margin-top: 5px !important;
+  }
+  .differentspart .content .overlay h1 {
+    font-size: 13px;
+  }
+  .differentspart .content .overlay h3 {
+    font-size: 12px;
+  }
+  .differentspart .content .overlay a {
+    font-size: 15px;
+  }
+  nav .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  nav .logo a img {
+    width: 80% !important;
+    height: 60px !important;
+  }
+  nav .manu {
+    min-height: 80px !important;
+  }
+  nav .manu ul li {
+    margin: 0 3px !important;
+    padding: 5px 3px !important;
+  }
+  .navigation_arrow {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .navigation_arrow span i {
+    font-size: 20px !important;
+  }
+  nav .manu ul li ul {
+    left: -132px !important;
+    min-width: 528% !important;
+  }
+
+  .deliveryprocess .indication .imagediv::after {
+    display: none;
+  }
+  .deliveryprocess .indication .imagediv::before {
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .differentspart .content .overlay h1 {
+    font-size: 20px;
+  }
+  .differentspart .content .overlay h3 {
+    font-size: 20px;
+  }
+  nav .manu ul li {
+    margin: 0 5px !important;
+    padding: 15px 5px !important;
+  }
+  nav .manu ul li ul {
+    left: -135px !important;
+    min-width: 600% !important;
+  }
+  .deliveryprocess .indication:nth-child(2) .imagediv::after {
+    display: none;
+  }
+  .deliveryprocess .indication:nth-child(2) .imagediv::before {
+    display: none;
+  }
+  .deliveryprocess .indication:nth-child(4) .imagediv::after {
+    display: none;
+  }
+  .deliveryprocess .indication:nth-child(4) .imagediv::before {
+    display: none;
+  }
+  .deliveryprocess .indication:nth-child(6) .imagediv::after {
+    display: none;
+  }
+  .deliveryprocess .indication:nth-child(6) .imagediv::before {
+    display: none;
+  }
+  .deliveryprocess .indication:nth-child(8) .imagediv::after {
+    display: none;
+  }
+  .deliveryprocess .indication:nth-child(8) .imagediv::before {
+    display: none;
+  }
+  .deliveryprocess .imagediv::after {
+    right: -32px;
+  }
+  .deliveryprocess .imagediv::before {
+    right: -35px;
+  }
+}
+@media (max-width: 991px) {
+  header .logingpart {
+    justify-content: end !important;
+  }
+  nav .manu ul li a {
+    font-size: 12px !important;
+  }
+  nav .searchbtn {
+    justify-content: end !important;
+  }
+  nav .searchbtn .form {
+    right: 0px !important;
+  }
+  .differentspart .content .overlay h4 {
+    font-size: 16px !important;
+  }
+  .differentspart .content .overlay h1 {
+    font-size: 17px !important;
+  }
+  .differentspart .content .overlay h3 {
+    font-size: 17px;
+  }
+  .differentspart .content .overlay {
+    padding: 0 2px;
+  }
+  .project .content {
+    margin-bottom: 50px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .differentspart .content .overlay h1 {
+    font-size: 25px;
+  }
+  nav .manu ul li ul {
+    left: -136px !important;
+    min-width: 580% !important;
+  }
+  .deliveryprocess .indication:nth-child(3) .imagediv::after {
+    display: none;
+  }
+  .deliveryprocess .indication:nth-child(3) .imagediv::before {
+    display: none;
+  }
+  .deliveryprocess .indication:nth-child(6) .imagediv::after {
+    display: none;
+  }
+  .deliveryprocess .indication:nth-child(6) .imagediv::before {
+    display: none;
+  }
+  .deliveryprocess .indication:nth-child(8) .imagediv::after {
+    display: none;
+  }
+  .deliveryprocess .indication:nth-child(8) .imagediv::before {
+    display: none;
+  }
+  .deliveryprocess .imagediv::after {
+    right: -33px;
+  }
+  .deliveryprocess .imagediv::before {
+    right: -35px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  header .hotline ul li span {
+    margin: 0 5px !important;
+  }
+  header .hotline ul li a {
+    font-size: 14px !important;
+  }
+  header .logingpart ul li {
+    margin: 5px 3px;
+  }
+  header .logingpart ul li a {
+    font-size: 14px !important;
+  }
+  .quoteform {
+    left: 50% !important;
+    top: 40% !important;
+  }
+}
+@media (min-width: 992px) {
+  .deliveryprocess .imagediv::after {
+    right: -31px !important;
+  }
+  .deliveryprocess .imagediv::before {
+    right: -33px !important;
+  }
+  .deliveryprocess .indication:nth-child(4) .imagediv::after {
+    display: none;
+  }
+  .deliveryprocess .indication:nth-child(4) .imagediv::before {
+    display: none;
+  }
+  .deliveryprocess .indication:nth-child(8) .imagediv::after {
+    display: none;
+  }
+  .deliveryprocess .indication:nth-child(8) .imagediv::before {
+    display: none;
+  }
+}
